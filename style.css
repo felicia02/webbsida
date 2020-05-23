@@ -134,13 +134,12 @@ header {
     top: 80px;
     z-index: 1;
     display: grid;
-    grid-template-columns: 479px 479px 479px;
-    grid-template-rows: 310px 310px 310px 310px 270px 290px 270px 270px 270px 270px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   
   .image {
     position: relative;
-    width: 479px;
+    width: 100%;
     height: auto;
     top: -185px;
     border: 1px white solid;
@@ -148,7 +147,7 @@ header {
 
   .film {
     position: relative;
-    top: 3290px;
+    top: 3565px;
     z-index: 10;
     color: rgb(0, 0, 0);
   }
@@ -173,7 +172,7 @@ header {
 
   .art {
     position: relative;
-    top: 3650px;
+    top: 3920px;
     z-index: 10;
     color: rgb(0, 0, 0);
   }
