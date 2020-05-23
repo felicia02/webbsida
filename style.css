@@ -1,0 +1,244 @@
+.namn {
+    text-align: center;
+    color: #000000;
+    font-size: 170px;
+    font-family: "boys dont cry";
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    letter-spacing: 5px;
+    font-weight: 100;
+    z-index: 1;
+    mix-blend-mode: luminosity;
+    opacity: 70%;
+}
+
+.namn2 {
+  z-index: 110;
+  color: #000000;
+  position: fixed;
+  left: 10px;
+  top: 8px;
+  font-family: "boys dont cry";
+  font-size: 40px;
+  font-weight: 100;
+  mix-blend-mode: luminosity;
+  opacity: 80%;
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    font-family: roboto;
+    background-color: rgb(255, 255, 255);
+}
+
+.portfolio {
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5em;
+    border-bottom: solid #000000 2px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: rgb(196, 196, 196);
+}
+
+.headerp {
+  background-color: transparent;
+  border-bottom: 0px;
+}
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+  text-decoration: solid;
+  color: rgb(0, 0, 0);
+  }
+
+  .aselected {
+  color: rgb(255, 255, 255);
+  }
+
+.bgc {
+  background-image: url("img/bakgrund.jpg");
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 50px;
+  z-index: -0,5;
+  opacity: 80%;
+  }
+
+  .bgh {
+    background-image: url("img/P1050555.jpg");
+    height: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -0,5;
+    }
+
+  .headlines {
+    display:flex;
+    justify-content: left;
+    font-family: roboto;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    opacity: 80%;
+  }
+
+  .text {
+    position: relative;
+    top: 90px;
+    left: 50px;
+    width: 800px;
+    height: auto;
+    opacity: 80%;
+  }
+
+  h3 {
+    font-weight: normal;
+    font-family: Helvetica Neue;
+    font-size: 22px;
+  }
+
+  .headlines2 {
+    font-family: roboto;
+    font-size: 30px;
+    position: relative;
+    top: 51px;
+    letter-spacing: 25px;
+    left: 15px;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+    opacity: 80%;
+  }
+
+  .images {
+    position: relative;
+    top: 80px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 479px 479px 479px;
+    grid-template-rows: 310px 310px 310px 310px 270px 290px 270px 270px 270px 270px;
+  }
+  
+  .image {
+    position: relative;
+    width: 479px;
+    height: auto;
+    top: -185px;
+    border: 1px white solid;
+  }
+
+  .film {
+    position: relative;
+    top: 3290px;
+    z-index: 10;
+    color: rgb(0, 0, 0);
+  }
+
+  .filmgrid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 479px 479px 479px;
+    grid-template-rows: 300px;
+    height: 913px;
+    top: -160px;
+    z-index: 0;
+  }
+
+  .vid {
+    position: relative;
+    top: 190px;
+    height: auto;
+    width: 477px;
+    border: 1px white solid;
+  }
+
+  .art {
+    position: relative;
+    top: 3650px;
+    z-index: 10;
+    color: rgb(0, 0, 0);
+  }
+
+  .artgrid {
+    position: relative;
+    top: -350px;
+    display: grid;
+    grid-template-columns: 479px 479px 479px;
+  }
+
+  .image2 {
+  position: relative;
+  top: -100px;
+  height: 540px;
+  width: auto;
+  border: 1px white solid;
+  width: 479px;
+  }
+
+  .me {
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 110px;
+    left: 900px;
+  }
+
+.icons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+  /* Style icons */
+.fa {
+  font-size: 300px!important;
+  text-align: center;
+  width: 300px;
+  text-decoration: none;
+}
+
+/* hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  color: rgb(0, 0, 0);
+}
+
+/* Instagram */
+.fa-instagram {
+  color: #000000;
+}
+
+.bg {
+  height: 30px;
+  width: 100%;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
