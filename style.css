@@ -17,6 +17,11 @@
     opacity: 70%;
 }
 
+@font-face {
+  font-family: "boys dont cry";
+  src: url("misc/BoysDontCry.otf");
+  }
+
 .namn2 {
   z-index: 110;
   color: #000000;
@@ -85,7 +90,7 @@ header {
 
   .bgh {
     background-image: url("img/P1050555.jpg");
-    height: 768px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -0,5;
@@ -155,9 +160,8 @@ header {
   .filmgrid {
     position: relative;
     display: grid;
-    grid-template-columns: 479px 479px 479px;
-    grid-template-rows: 300px;
-    height: 913px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 900px;
     top: -160px;
     z-index: 0;
   }
