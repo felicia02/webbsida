@@ -1,16 +1,16 @@
 .namn {
     text-align: center;
     color: #000000;
-    font-size: 170px;
+    font-size: 11.8vw;
     font-family: "boys dont cry";
     left: 0;
-    line-height: 200px;
-    margin-top: -100px;
+    line-height: 13vw;
+    margin-top: -7vw;
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 27vw;
     width: 100%;
-    letter-spacing: 5px;
+    letter-spacing: 0.2vw;
     font-weight: 100;
     z-index: 1;
     mix-blend-mode: luminosity;
@@ -22,14 +22,16 @@
   src: url("misc/BoysDontCry.otf");
   }
 
+  
+
 .namn2 {
   z-index: 110;
   color: #000000;
   position: fixed;
-  left: 10px;
-  top: 8px;
+  left: 1vw;
+  top: 0.5vw;
   font-family: "boys dont cry";
-  font-size: 40px;
+  font-size: 3vw;
   font-weight: 100;
   mix-blend-mode: luminosity;
   opacity: 80%;
@@ -47,12 +49,12 @@
 }
 
 header {
-    padding: 15px;
+    padding: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
     word-spacing: 5em;
-    border-bottom: solid #000000 2px;
+    border-bottom: solid #000000 0.12vw;
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -61,7 +63,7 @@ header {
 
 .headerp {
   background-color: transparent;
-  border-bottom: 0px;
+  border-bottom: 0vw;
 }
 
   li {
@@ -71,6 +73,7 @@ header {
   a {
   text-decoration: solid;
   color: rgb(0, 0, 0);
+  font-size: 1.2vw;
   }
 
   .aselected {
@@ -79,11 +82,11 @@ header {
 
 .bgc {
   background-image: url("img/bakgrund.jpg");
-  height: 720px;
+  height: 50vw;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  top: 50px;
+  top: 3.5vw;
   z-index: -0,5;
   opacity: 80%;
   }
@@ -100,35 +103,35 @@ header {
     display:flex;
     justify-content: left;
     font-family: roboto;
-    font-size: 30px;
+    font-size: 2vw;
     position: relative;
-    top: 80px;
-    left: 50px;
+    top: 6vw;
+    left: 3vw;
     opacity: 80%;
   }
 
   .text {
     position: relative;
-    top: 90px;
-    left: 50px;
-    width: 800px;
-    height: auto;
+    top: 6vw;
+    left: 3vw;
+    width: 55vw;
+    height: 50vw;
     opacity: 80%;
   }
 
   h3 {
     font-weight: normal;
     font-family: Helvetica Neue;
-    font-size: 22px;
+    font-size: 1.6vw;
   }
 
   .headlines2 {
     font-family: roboto;
-    font-size: 30px;
+    font-size: 2vw;
     position: relative;
-    top: 51px;
-    letter-spacing: 25px;
-    left: 15px;
+    top: 3.3vw;
+    letter-spacing: 2vw;
+    left: 1vw;
     color: rgb(0, 0, 0);
     z-index: 10;
     opacity: 80%;
@@ -136,7 +139,7 @@ header {
 
   .images {
     position: relative;
-    top: 80px;
+    top: 5.5vw;
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -146,13 +149,13 @@ header {
     position: relative;
     width: 100%;
     height: auto;
-    top: -185px;
-    border: 1px white solid;
+    top: -12.8vw;
+    border: 0.1vw white solid;
   }
 
   .film {
     position: relative;
-    top: 3565px;
+    top: 244vw;
     z-index: 10;
     color: rgb(0, 0, 0);
   }
@@ -161,54 +164,56 @@ header {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 900px;
-    top: -160px;
+    height: 60vw;
+    top: -13vw;
     z-index: 0;
   }
 
   .vid {
     position: relative;
-    top: 190px;
+    top: 12vw;
     height: auto;
-    width: 477px;
-    border: 1px white solid;
+    width: 100%;
+    border: 0.2vw white solid;
   }
 
   .art {
     position: relative;
-    top: 3920px;
+    top: 267vw;
     z-index: 10;
     color: rgb(0, 0, 0);
   }
 
   .artgrid {
     position: relative;
-    top: -350px;
+    top: -25.5vw;
     display: grid;
-    grid-template-columns: 479px 479px 479px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 40vw;
+    width: 100vw;
   }
 
   .image2 {
   position: relative;
-  top: -100px;
-  height: 540px;
+  top: -7.1vw;
+  height: auto;
   width: auto;
-  border: 1px white solid;
-  width: 479px;
+  border: 0.2vw white solid;
+  width: 100%;
   }
 
   .me {
-    width: 450px;
+    width: 31vw;
     height: auto;
     position: absolute;
-    top: 110px;
-    left: 900px;
+    top: 8vw;
+    right: 4vw;
   }
 
 .icons {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 50vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -216,9 +221,8 @@ header {
 }
   /* Style icons */
 .fa {
-  font-size: 300px!important;
+  font-size: 20vw!important;
   text-align: center;
-  width: 300px;
   text-decoration: none;
 }
 
@@ -236,12 +240,7 @@ header {
 .fa-instagram {
   color: #000000;
 }
-
-.bg {
-  height: 30px;
-  width: 100%;
-}
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0vw;
+    padding: 0vw;
 }
