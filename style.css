@@ -216,6 +216,7 @@ header {
   justify-content: space-around;
   align-items: center;
   z-index: 1;
+  top: 3.5vw;
 }
   /* Style icons */
 .fa {
