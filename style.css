@@ -137,7 +137,7 @@ header {
 
   .images {
     position: relative;
-    top: 5.5vw;
+    top: 6vw;
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
